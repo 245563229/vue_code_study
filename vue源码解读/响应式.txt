@@ -1,0 +1,5 @@
+1.vue2响应式核心模块：Observer,Dep,Watcher
+2.vue3响应式核心模块：Data,Dep,Effect
+
+vue3中watcher变成了effect，effect的实现与定义都与watcher不同，
+但作用类似，都是为了执行副作用函数钩子(watch，component)
